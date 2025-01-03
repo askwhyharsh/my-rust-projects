@@ -1,0 +1,8 @@
+[package]
+name = "port-sniffer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.36", features = ["full"] }
+bpaf = { version = "0.9", features = ["derive"] }
